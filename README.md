@@ -71,7 +71,7 @@ All Narrow Node projects will use the following staff groups:
 
 `Developers` write code specializing on one component of the project.
 
-`Designers` are primarily responsible for wiki and content creation. but won't be writing any code.
+`Designers` are primarily responsible for wiki and content creation, but won't be writing any code.
 
 `Moderators` are community managers that don't have any elevated permissions in terms of content creation.
 
