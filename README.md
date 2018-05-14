@@ -69,7 +69,7 @@ All Narrow Node projects will use the following staff groups:
 
 `Owners` are developers that must audit more sensitive code before it is accepted.
 
-`Developers` specialize on a component of the game writing code.
+`Developers` write code specializing on one component of the project.
 
 `Designers` are primarily responsible for wiki and content creation. but won't be writing any code.
 
