@@ -49,7 +49,7 @@ The project wiki repository `mars-landing` will start with two pages:
 - `Yellow Paper` Research paper outlining underlying tech and repositories
 - `White Paper` Content creation paper showcasing feature and version planning
 
-In the wiki `mars-landing` repository, click `Wiki`, then `New Page` for each paper.
+In the main project `mars-landing` repository, click `Wiki`, then `New Page` for each paper.
 
 Both of these papers must be written in the wiki repo before any code or other documentation is written. They will provide planning for the entire lifetime of the project, and are great to be used as a reference throughout development. It is critically important that they are thorough and nothing is overlooked. See [Current Projects](#current-projects) for examples of Yellow and White Papers.
 
