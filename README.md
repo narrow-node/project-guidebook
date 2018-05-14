@@ -19,6 +19,9 @@ Given a project name and basic goals, structured conventions will be used to org
    2. [Creating Diagrams](#creating-diagrams)
 4. [Managing Development](#4-managing-development)
    1. [Staff](#staff)
+   3. [Versioning](#versioning)
+   4. [Creating Update Packs](#creating-update-packs)
+   5. [To-Do Lists](#to-do-lists)
 - [Current Projects](#current-projects)
 
 ## 1. Create a Narrow Node Project
@@ -50,7 +53,7 @@ In the wiki `mars-landing` repository, click `Wiki`, then `New Page` for each pa
 
 Both of these papers must be written in the wiki repo before any code or other documentation is written. They will provide planning for the entire lifetime of the project, and are great to be used as a reference throughout development. It is critically important that they are thorough and nothing is overlooked. See [Current Projects](#current-projects) for examples of Yellow and White Papers.
 
-### Creating diagrams
+### Creating Diagrams
 Use [draw.io](https://draw.io) to make all diagrams so that they look uniform. Use `Courier New` as the only font. Export them as an image with the `Shadow` option enabled, and upload them to the wiki repo `mars-landing` under a folder titled `diagrams` so that all documentation can reference them.
 
 
@@ -74,6 +77,41 @@ All Narrow Node projects will use the following staff groups:
 
 `QA` are alpha and beta-testers for fragile content that isn't yet released.
 
+### Versioning
+Version numbers will use [npm's semantic versioning](https://docs.npmjs.com/getting-started/semantic-versioning) conventions. They are structured like so:
+
+`vX.Y.Z`
+
+- `X` Major, potentially breaking updates that shift to a new `Update Phase` (more in a moment)
+- `Y` Minor, non-breaking updates containing `Update Packs` that do not introduce a new `Update Phase`
+- `Z` Bug fix(es)
+
+Each number starts at `0`, and increments indefinitely until its parent increments. So, if `Mars Landing` was `v2.7.29`, then it is version `2`, with `8` update packs and `30` bug fixes. When there is a new update pack, it becomes `v2.8.0`, and when there is a new 
+update _phase_ it becomes `v3.0.0`.
+
+Versions are **not** repository specific. Keep version numbers uniform across all repositories. If updates have occured on `mars-manufacturing` and `mars-capacitor` but not on `mars-mainframe`, the `mars-mainframe` version should be updated anyway. This may seem odd, but it will becomre more apparent.
+
+To modify the versions on each repository, use the `Releases` tab.
+
+`Update Phases` are names for major version changes. For `Mars Landing` there may be the following phase names and versions:
+
+0. Liftoff
+1. Breakthrough
+2. Orbit
+3. Landing
+
+So in the `Releases` tab for each repository, when `v2.0.0` is released, the title name for that tag becomes `Orbit`. This is why each repository needs a consistent version. Update phases mark significant milestones throughout the project and have unique visionary strategies. Some phases may be considered expermential, some stable, and some permanent.
+
+### Creating Update Packs
+For larger, more comprehensive to-do lists such as biweekly update packs, go to `Projects` for the repository being updated. If `mars-mainframe` needed update pack #2 to be documented, a new project could be created _within that repository_. To be clear, this is not the same as the `Projects` tab under the Narrow Node organization page. The `Project board name` for the update pack would be `Liftoff v0.2.0 - Ship measurement calculator` and the description would contain a markdown checklist of everything that needs to be added for the update pack.
+
+### To-Do Lists
+Automate to-do lists for bug-fixes and wiki pages by opening an issue inside the repository and creating a markdown checklist inside the new issue post. On the right, assign the issue to the project. This will automatically add it to the `Mars Landing` To-Do section in the Narrow Node Projects page.
+
+### Communicate with team members!!!
+Say what you are feeling, even if it is unpopular. Never just go along with an update if you feel it is bad for the project.
+
 ---
+
 ## Current Projects
 - [`paperweight`](https://github.com/narrow-node/paperweight/wiki/)
