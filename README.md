@@ -65,9 +65,13 @@ All Narrow Node projects will use the following staff groups:
 - [QA](https://github.com/orgs/narrow-node/teams/qa)
 
 `Owners` are developers that must audit more sensitive code before it is accepted.
+
 `Developers` specialize on a component of the game writing code.
+
 `Designers` are primarily responsible for wiki and content creation. but won't be writing any code.
+
 `Moderators` are community managers that don't have any elevated permissions in terms of content creation.
+
 `QA` are alpha and beta-testers for fragile content that isn't yet released.
 
 ---
