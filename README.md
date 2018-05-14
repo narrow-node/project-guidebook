@@ -17,6 +17,8 @@ Given a project name and basic goals, structured conventions will be used to org
 3. [Planning Project Direction](#3-planning-project-direction)
    1. [Create Yellow and White Paper](#create-yellow-and-white-paper)
    2. [Creating Diagrams](#creating-diagrams)
+4. [Managing Development](#4-managing-development)
+   1. [Staff](#staff)
 - [Current Projects](#current-projects)
 
 ## 1. Create a Narrow Node Project
@@ -51,6 +53,22 @@ Both of these papers must be written in the wiki repo before any code or other d
 ### Creating diagrams
 Use [draw.io](https://draw.io) to make all diagrams so that they look uniform. Use `Courier New` as the only font. Export them as an image with the `Shadow` option enabled, and upload them to the wiki repo `mars-landing` under a folder titled `diagrams` so that all documentation can reference them.
 
+
+## 4. Managing Development
+
+### Staff
+All Narrow Node projects will use the following staff groups:
+- [Owners](https://github.com/orgs/narrow-node/teams/owners)
+- [Developers](https://github.com/orgs/narrow-node/teams/developers)
+  - [Designers](https://github.com/orgs/narrow-node/teams/designers)
+- [Moderators](https://github.com/orgs/narrow-node/teams/moderators)
+- [QA](https://github.com/orgs/narrow-node/teams/qa)
+
+`Owners` are developers that must audit more sensitive code before it is accepted.
+`Developers` specialize on a component of the game writing code.
+`Designers` are primarily responsible for wiki and content creation. but won't be writing any code.
+`Moderators` are community managers that don't have any elevated permissions in terms of content creation.
+`QA` are alpha and beta-testers for fragile content that isn't yet released.
 
 ---
 ## Current Projects
