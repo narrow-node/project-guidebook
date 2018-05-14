@@ -89,7 +89,7 @@ Version numbers will use [npm's semantic versioning](https://docs.npmjs.com/gett
 Each number starts at `0`, and increments indefinitely until its parent increments. So, if `Mars Landing` was `v2.7.29`, then it is version `2`, with `8` update packs and `30` bug fixes. When there is a new update pack, it becomes `v2.8.0`, and when there is a new 
 update _phase_ it becomes `v3.0.0`.
 
-Versions are **not** repository specific. Keep version numbers uniform across all repositories. If updates have occured on `mars-manufacturing` and `mars-capacitor` but not on `mars-mainframe`, the `mars-mainframe` version should be updated anyway. This may seem odd, but it will become more apparent.
+Versions are **not** repository-specific. Keep version numbers uniform across all repositories. If updates have occured on `mars-manufacturing` and `mars-capacitor` but not on `mars-mainframe`, the `mars-mainframe` version should be updated anyway. This may seem odd, but it will become more apparent.
 
 To modify the versions on each repository, use the `Releases` tab.
 
